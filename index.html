@@ -1,32 +1,27 @@
 <!DOCTYPE html>
-<html lang="tr">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kedi Görseli</title>
-    <style>
-        body {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            margin: 0;
-            background-color: #f0f0f0;
-            font-family: Arial, sans-serif;
-        }
-        .container {
-            text-align: center;
-        }
-        img {
-            max-width: 100%;
-            height: auto;
-        }
-    </style>
+    <title>Dinamik Web Sayfası</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <div class="banner">
+        <h1>Hoşgeldiniz!</h1>
+    </div>
     <div class="container">
-        <h1>Sevimli Kedi</h1>
-        <img src="kedi.jpg" alt="Kedi Görseli">
+        <div class="sidebar">
+            <button class="neon-button">Hakkımızda</button>
+            <button class="neon-button">Basından Haberler</button>
+            <button class="neon-button">İletişim</button>
+            <button class="neon-button">Misyonumuz</button>
+            <button class="neon-button">Vizyonumuz</button>
+        </div>
+        <div class="content">
+            <img src="https://placekitten.com/400/400" alt="Kedi Resmi">
+        </div>
     </div>
 </body>
 </html>
+
